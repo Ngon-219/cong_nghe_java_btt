@@ -1,12 +1,11 @@
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class checkedException {
+public class uncheckedException {
     private ArrayList<String> myLikedSongs = new ArrayList<>();
     private String user;
 
-    checkedException() {
+    uncheckedException() {
         this.myLikedSongs.add("Bong Hong Thuy Tinh");
         this.myLikedSongs.add("Ra Khoi");
         this.myLikedSongs.add("Tieng Goi");
@@ -31,7 +30,7 @@ public class checkedException {
     }
 
     public static void main(String[] args) {
-        checkedException checked = new checkedException();
+        uncheckedException checked = new uncheckedException();
 //        System.out.println(checked.getUser());
         boolean check = true;
         while(check) {
